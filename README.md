@@ -55,7 +55,7 @@ For Backend
    2. middlewares/: This folder houses middleware functions used for various purposes like authentication, request validation, and error handling. These functions are reused across different routes for consistent behavior.
    3. models/: This folder contains Mongoose models representing data structures for users, reviews, favorites, etc. These models define the schema for data stored in the database.
    4. routes/: This folder is the central hub for routing. It defines all the API endpoints and maps them to the corresponding controller functions.
-   5. utils/: This folder (if it exists) might contain utility functions used across the application for common tasks.
+   5. utils/: This folder contain utility functions used across the application for common tasks.
    6. axios/: This folder likely contains configuration for the Axios library used to make HTTP requests to the TMDB API for movie/TV show data.
    7. tmdb.endpoints.js: This file defines endpoints used for interacting with the TMDB API.
 2. index.js: This is the main entry point for the server. It configures the Express app, middleware, routes, and database connection.
